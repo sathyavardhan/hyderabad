@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<project name="hyderabad">
+
+<target name="info">
+<echo>new jenkins started</echo>
+</target>
+
+<target name="compile">
+<echo>complie block ececuted</echo>
+<javac srcdir="C:\Users\SATHYA VARDHAN\Desktop\hyderabad\trunk\java files" destdir="java files"/>
+</target>
+
+<target name="run">
+<echo>run block executed</echo>
+<java classname="welcomenote">
+<classpath path="C:\Users\SATHYA VARDHAN\Desktop\hyderabad\trunk\java files"/>
+</java>
+</target>
+</project>
+ 
